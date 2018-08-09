@@ -15,6 +15,7 @@
 	top: 250px;
 	left: 30px;
 	position: absolute;
+	opacity: 0.8;
 }
 .smallbox1{
 	height: 250px;
@@ -22,6 +23,7 @@
 	left: 30px;
 	position: absolute;
 	background-color: white;
+	opacity: 0.8;
 }
 .logo{
     font-size: 25px;
@@ -29,4 +31,26 @@
     line-height: 50px;
     padding-left: 20px;
 
+}
+.date{
+	top: -70px;
+	left: 330px;
+	position: relative;
+}
+.date1{
+	top: 15px;
+	position: relative;
+}
+.adult{
+	top: -70px;
+	position: relative;
+}
+.adult1{
+	top: -141px;
+	left: 330px;
+	position: relative;
+}
+.submit{
+	top:-120px;
+	position: relative;
 }
