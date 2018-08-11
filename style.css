@@ -1,3 +1,14 @@
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(Raleway-Medium.ttf);
+}
+
+
+body{
+	background-color: lightgrey;
+	font-family: myFirstFont;
+}
 .navbar-item a,h5{
 	color: lightgrey;
 	margin-left: 5px;
@@ -53,4 +64,60 @@
 .submit{
 	top:-120px;
 	position: relative;
+}
+.box{
+	background-color: white;
+	padding: 0px !important;
+	height:530px;
+	float: left;
+    border: 10px solid #d4d4d4;
+
+}
+.image{
+	width: 100%;
+
+}
+.align3{
+	padding-top: 20px;
+	text-align: center;
+}
+.align4{
+    text-align: center;
+}
+.align5{
+	margin-left: 120px;
+	background-color: black;
+}
+.about{
+	padding-top: 40px;
+	float: left;
+	text-align: justify;
+}
+
+.map{
+	padding-top: 80px;
+
+}
+.cards{
+	font-size: 1.3em;
+}
+.address{
+	padding-left: 60px;
+	padding-top: 46px;
+	float: left;
+
+}
+.special{
+     background-color: red;
+     height: 80px;
+     width: 100%;
+     opacity: 0.8;
+     
+
+	}
+.text-align{
+	color: #EAE4E7;
+	font-size: 1.3em;
+	line-height: 80px;
+	padding-left:10px;
 }
